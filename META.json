@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "About \"SPEED\" is Japanese female vocal/dance group",
    "author" : [
       "@gmail.com>"
    ],
@@ -54,6 +54,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kitak/p5-Acme-Speed/issues"
+      },
+      "homepage" : "https://github.com/kitak/p5-Acme-Speed",
+      "repository" : {
+         "url" : "https://github.com/kitak/p5-Acme-Speed.git",
+         "web" : "https://github.com/kitak/p5-Acme-Speed"
+      }
+   },
    "version" : "0.01",
    "x_contributors" : [
       "Keisuke KITA <kei.kita2501@gmail.com>"
