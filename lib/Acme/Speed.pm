@@ -2,7 +2,6 @@ package Acme::Speed;
 
 use strict;
 use warnings;
-use Data::Dumper;
 
 our $VERSION = "0.01";
 
@@ -63,6 +62,7 @@ Acme::Speed - About "SPEED" is Japanese female vocal/dance group
 
 "SPEED" is a Japanese female vocal/dance group.
 
+This module provides an method to check each member of SPEED.
 
 =head1 METHODS
 
@@ -82,8 +82,8 @@ Creates and returns a new Acme::Speed object.
 
   my @members = $speed->members;
 
-Returns the members as as list of the L<Acme::Speed::Member::Base>
-based object represents each member. See also the documentation of
+Returns the members as a list of the L<Acme::Speed::Member::Base> 
+based object represents each member. See also the documentation of 
 L<Acme::Speed::Member::Base> for more details.
 
 =back
@@ -92,7 +92,7 @@ L<Acme::Speed::Member::Base> for more details.
 
 Copyright (C) Keisuke KITA.
 
-This library is free software; you can redistribute it and/or modify
+This library is free software; you can redistribute it and/or modify 
 it under the same terms as Perl itself.
 
 =head1 AUTHOR
