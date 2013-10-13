@@ -52,7 +52,7 @@ __END__
 
 =head1 NAME
 
-Acme::Speed - About Japanese "SPEED" 
+Acme::Speed - About "SPEED" is Japanese female vocal/dance group
 
 =head1 SYNOPSIS
 
@@ -64,7 +64,8 @@ Acme::Speed - About Japanese "SPEED"
 
 =head1 DESCRIPTION
 
-"SPEED" is
+"SPEED" is a Japanese female vocal/dance group.
+
 
 =head1 METHODS
 
