@@ -1,11 +1,49 @@
 package Acme::Speed;
-use 5.008005;
+
 use strict;
 use warnings;
+use Data::Dumper;
 
 our $VERSION = "0.01";
 
+my @members = qw(
+    ArakakiHitoe
+    UeharaTakako
+    ImaiEriko
+    ShimabukuroHiroko
+);
 
+sub new {
+    my $class = shift;
+    my $self = bless {members => []}, $class;
+
+    $self->_initialize;
+
+    return $self;
+}
+
+sub members {
+    my $self = shift;
+    my @members = @{$self->{members}};
+
+    return @members;
+}
+
+sub _initialize {
+    my $self = shift;
+
+    for my $member (@members) {
+        my $module_name = "Acme::Speed::Member::${member}";
+        eval "require ${module_name};";
+        if ( $@ ) {
+            print "$@\n";
+        }
+
+        push @{$self->{members}}, $module_name->new;
+    }
+
+    return 1;
+}
 
 1;
 __END__
@@ -14,15 +52,43 @@ __END__
 
 =head1 NAME
 
-Acme::Speed - It's new $module
+Acme::Speed - About Japanese "SPEED" 
 
 =head1 SYNOPSIS
 
     use Acme::Speed;
 
+    my $speed = Acme::Speed->new;
+
+    my @members = $speed->members;
+
 =head1 DESCRIPTION
 
-Acme::Speed is ...
+"SPEED" is
+
+=head1 METHODS
+
+=head2 new
+
+=over 4
+
+  my $speed = Acme::Speed->new;
+
+Creates and returns a new Acme::Speed object.
+
+=back
+
+=head2 members
+
+=over 4
+
+  my @members = $speed->members;
+
+Returns the members as as list of the L<Acme::Speed::Member::Base>
+based object represents each member. See also the documentation of
+L<Acme::Speed::Member::Base> for more details.
+
+=back
 
 =head1 LICENSE
 

@@ -43,7 +43,8 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "Class::Accessor" : "0",
+            "DateTime" : "0"
          }
       },
       "test" : {
@@ -53,5 +54,8 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "version" : "0.01",
+   "x_contributors" : [
+      "Keisuke KITA <kei.kita2501@gmail.com>"
+   ]
 }
