@@ -35,9 +35,6 @@ sub _initialize {
     for my $member (@members) {
         my $module_name = "Acme::Speed::Member::${member}";
         eval "require ${module_name};";
-        if ( $@ ) {
-            print "$@\n";
-        }
 
         push @{$self->{members}}, $module_name->new;
     }
