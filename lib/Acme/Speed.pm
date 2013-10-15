@@ -3,7 +3,7 @@ package Acme::Speed;
 use strict;
 use warnings;
 
-our $VERSION = "0.01";
+our $VERSION = "0.0.2";
 
 my @members = qw(
     ArakakiHitoe

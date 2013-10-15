@@ -2,6 +2,10 @@ Revision history for Perl extension Acme-Speed
 
 {{$NEXT}}
 
+0.0.2 2013-10-15T23:54:51Z
+
+   - append the SEE ALSO section
+
 0.01 2013-10-13T18:40:32Z
 
     - original version
