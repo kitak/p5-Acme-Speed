@@ -32,13 +32,27 @@ This module provides an method to check each member of SPEED.
     based object represents each member. See also the documentation of 
     [Acme::Speed::Member::Base](http://search.cpan.org/perldoc?Acme::Speed::Member::Base) for more details.
 
-# LICENSE
+# SEE ALSO
 
-Copyright (C) Keisuke KITA.
+- SPEED OFFICIAL WEBSITE
 
-This library is free software; you can redistribute it and/or modify 
-it under the same terms as Perl itself.
+    [http://avex.jp/speed/index.html](http://avex.jp/speed/index.html)
 
-# AUTHOR
+- Speed（Japanase band）- Wikipedia
 
-Keisuke KITA <kei.kita2501@gmail.com>
+    [http://en.wikipedia.org/wiki/Speed\_(Japanese\_band)](http://en.wikipedia.org/wiki/Speed\_(Japanese\_band))
+
+- Acme::MorningMusume
+
+    [http://search.cpan.org/~kentaro/Acme-MorningMusume-0.16/lib/Acme/MorningMusume.pm](http://search.cpan.org/~kentaro/Acme-MorningMusume-0.16/lib/Acme/MorningMusume.pm)
+
+    # LICENSE
+
+    Copyright (C) Keisuke KITA.
+
+    This library is free software; you can redistribute it and/or modify 
+    it under the same terms as Perl itself.
+
+    # AUTHOR
+
+    Keisuke KITA <kei.kita2501@gmail.com>

@@ -88,6 +88,22 @@ L<Acme::Speed::Member::Base> for more details.
 
 =back
 
+=head1 SEE ALSO
+
+=over 4
+
+=item * SPEED OFFICIAL WEBSITE
+
+L<http://avex.jp/speed/index.html>
+
+=item * Speed（Japanase band）- Wikipedia
+
+L<http://en.wikipedia.org/wiki/Speed_(Japanese_band)>
+
+=item * Acme::MorningMusume
+
+L<http://search.cpan.org/~kentaro/Acme-MorningMusume-0.16/lib/Acme/MorningMusume.pm>
+
 =head1 LICENSE
 
 Copyright (C) Keisuke KITA.
